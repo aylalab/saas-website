@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#622B87;}
+	.st1{fill:#FEE464;}
+	.st2{fill:#FFCD45;}
+	.st3{fill:none;}
+	.st4{fill:#5DBC5E;}
+	.st5{font-family:'Europa-Bold';}
+	.st6{font-size:14.6831px;}
+	.st7{font-size:11.5864px;}
+	.st8{font-size:15.2964px;}
+</style>
+<circle class="st0" cx="297.97" cy="420.57" r="65.52"/>
+<path class="st1" d="M284.81,414.05v41.6c0,1.22,0.66,2.34,1.73,2.92c3.25,1.76,10.57,4.66,17.84,0.22
+	c1.15-0.71,1.84-1.98,1.85-3.33c0.12-15.64,0.14-36.13,0.14-41.41c0-0.6-0.6-1.02-1.16-0.81c-2.84,1.06-10.53,3.24-19.23-0.01
+	C285.42,413.02,284.81,413.45,284.81,414.05z"/>
+<ellipse class="st2" cx="295.59" cy="413.8" rx="10.78" ry="2.36"/>
+<g>
+	<circle class="st1" cx="295.59" cy="396.2" r="9.27"/>
+	<rect x="291.06" y="390.63" class="st3" width="10.58" height="14.84"/>
+	<text transform="matrix(1 0 0 1 291.0568 401.7327)" class="st4 st5 st6">$</text>
+</g>
+<path class="st1" d="M258.12,423.98v32.83c0,0.96,0.57,1.84,1.49,2.3c2.78,1.39,9.06,3.68,15.29,0.18c0.99-0.56,1.58-1.56,1.59-2.63
+	c0.1-12.34,0.12-28.51,0.12-32.68c0-0.48-0.51-0.8-0.99-0.64c-2.43,0.83-9.03,2.56-16.48-0.01
+	C258.64,423.17,258.12,423.5,258.12,423.98z"/>
+<ellipse class="st2" cx="267.36" cy="423.79" rx="9.24" ry="1.86"/>
+<g>
+	<ellipse class="st1" cx="267.36" cy="409.9" rx="7.95" ry="7.32"/>
+	<rect x="263.47" y="405.5" class="st3" width="9.06" height="11.71"/>
+	<text transform="matrix(1.0859 0 0 1 263.4679 414.2615)" class="st4 st5 st7">$</text>
+</g>
+<path class="st1" d="M313.98,399.83V454c0,1.59,0.66,3.04,1.73,3.8c3.25,2.29,10.57,6.07,17.84,0.29c1.15-0.92,1.84-2.57,1.85-4.34
+	c0.12-20.36,0.14-47.04,0.14-53.92c0-0.78-0.6-1.33-1.16-1.05c-2.84,1.37-10.53,4.22-19.23-0.01
+	C314.59,398.49,313.98,399.04,313.98,399.83z"/>
+<ellipse class="st2" cx="324.76" cy="399.51" rx="10.78" ry="3.07"/>
+<g>
+	<ellipse class="st1" cx="324.76" cy="379" rx="9.27" ry="9.66"/>
+	<rect x="320.23" y="373.2" class="st3" width="10.58" height="15.46"/>
+	<text transform="matrix(0.9599 0 0 1 320.2257 384.7654)" class="st4 st5 st8">$</text>
+</g>
+</svg>

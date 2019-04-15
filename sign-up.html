@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Saas website</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900" rel="stylesheet">
+</head>
+<body>
+
+  <header class="relative">
+    <img class="img-flex pin-center-top" src="images/header-green.svg" alt-"">
+    <h1 class="unit xs-1-5 logo push-0 pad-b-1-2 gutter">
+      <i class=" icon i-64 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="anchor"></i>
+      <span class="logo-text giga icon-label text-left"></span>
+    </h1>
+  </header>
+
+<section>
+  <div>
+    <img class="img-flex" src="images/welcome.png" alt="">
+    <h1 class="welcome center-text nina">Welcome to Workflux!</h1>
+
+    <form class="grid">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+        <label class="push-1-4 micro" for="first-name">First name</label>
+        <input id="first-name" required>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter">
+        <label class="push-1-4 micro" for="last-name">Last name</label>
+        <input id="last-name" required>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+        <label class="push-1-4 micro" for="phone">Phone</label>
+        <input id="phone" type="tel">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+        <label class="push-1-4 micro" for="email">Email</label>
+        <input id="email" type="email">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+        <label class="push-1-4 micro" for="password">Password</label>
+        <input id="password" type="password">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+        <label class="push-1-4 micro" for="conf-pass">Confirm password</label>
+        <input id="conf-pass" type="password">
+      </div>
+      <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 center-text">
+        <legend class="center-text push exa">Select a plan:</legend>
+        <input type="radio" id="free" name="plan">
+        <label for="free">Free trial</label>
+        <input type="radio" id="basic" name="plan">
+        <label for="basic">Workflux Basic</label>
+        <input type="radio" id="plus" name="plan">
+        <label for="plus">Workflux +</label>
+      </fieldset>
+
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 center-text push">
+        <input id="terms" name="terms" type="checkbox" required>
+        <label for="terms">I agree to Workflux Terms & Conditions</label>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 center-text push">
+        <input id="promo" name="promo" type="checkbox" checked>
+        <label for="promo">I would like to recieve promotional emails from Workflux</label>
+      </div>
+      <div  class="unit xs-1 s-1 m-1 l-1 xl-1 center-text push-2 pad-t">
+        <button class="btn w-1-4 bold" type="submit">Sign up</button>
+      </div>
+    </form>

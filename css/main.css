@@ -1,0 +1,75 @@
+html {
+  font-family: Raleway, sans-serif;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+.social > li {
+  width: 3em;
+}
+
+footer {
+  background-color: #292465;
+  color: #fff;
+}
+
+.btn {
+  border-radius: 30px;
+  border: 0px solid #DB61C9;
+  background-color: #DB61C9;
+  box-shadow: 3px 4px 6px #888888
+}
+
+.plans {
+  border-radius: 30px;
+  border: 0px solid #FAB568;
+  background-color: #FAB568;
+  box-shadow: 3px 4px 6px #888888
+}
+
+.btn:hover {
+  background-color: #3A0B86;
+}
+
+.btn-plans:hover {
+  background-color: #3A0B86;
+  color: #fff;
+}
+
+.link-box {
+  color: #888888;
+}
+
+.link-box:hover {
+  color: #3A0B86;
+}
+
+.welcome {
+  color: #2294E3;
+}
+
+input {
+  border: 1px solid #707070;
+  border-radius: 8px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.header {
+  background-image: url("../images/header-green.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.products {
+  color: #4B44AA;
+}
+
+.foot:hover {
+  color: #fff;
+}
