@@ -28,7 +28,7 @@ footer {
   border-radius: 30px;
   border: 0px solid #FAB568;
   background-color: #FAB568;
-  box-shadow: 3px 4px 6px #888888
+  box-shadow: 0px 1.5px 7px #999;
 }
 
 .btn:hover {
@@ -126,4 +126,8 @@ td {
 
 th {
   border: 1px solid #ccc;
+}
+
+.sign-up {
+  background-color: #231246;
 }
