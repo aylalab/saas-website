@@ -19,7 +19,9 @@ footer {
   border-radius: 30px;
   border: 0px solid #462446;
   background-color: #F18c8e;
-  box-shadow: 3px 4px 6px #888888;
+  box-shadow: 0px 1.5px 7px #999;
+  width: 10rem;
+  text-align: center;
 }
 
 .plans {
@@ -92,7 +94,7 @@ fieldset {
 }
 
 .header-tour {
-  background-color: #462446;
+  background-color: #231246;
 }
 
 .a-tour {
@@ -105,4 +107,23 @@ fieldset {
 
 .brain {
   background-color: #6FDAE8;
+}
+
+.bubble {
+  position: relative;
+}
+
+.bubble-text {
+  position: relative;
+  bottom: 9em;
+  right: -1em;
+}
+
+td {
+  height: 10em;
+  border: 1px solid #ccc;
+}
+
+th {
+  border: 1px solid #ccc;
 }
