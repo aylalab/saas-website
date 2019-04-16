@@ -11,15 +11,15 @@ html {
 }
 
 footer {
-  background-color: #292465;
+  background-color: #231246;
   color: #fff;
 }
 
 .btn {
   border-radius: 30px;
-  border: 0px solid #DB61C9;
-  background-color: #DB61C9;
-  box-shadow: 3px 4px 6px #888888
+  border: 0px solid #462446;
+  background-color: #F18c8e;
+  box-shadow: 3px 4px 6px #888888;
 }
 
 .plans {
@@ -31,6 +31,7 @@ footer {
 
 .btn:hover {
   background-color: #3A0B86;
+  transition: color 0.5s ease;
 }
 
 .btn-plans:hover {
@@ -40,10 +41,19 @@ footer {
 
 .link-box {
   color: #888888;
+  transition: color 0.3s ease;
 }
 
 .link-box:hover {
   color: #3A0B86;
+}
+
+.testimonials {
+  color: #fff;
+}
+
+.testimonials:hover {
+  color: #888
 }
 
 .welcome {
@@ -59,17 +69,40 @@ fieldset {
   border: 0;
 }
 
-.header {
-  background-image: url("../images/header-green.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-}
-
 .products {
   color: #4B44AA;
 }
 
 .foot:hover {
   color: #fff;
+}
+
+.header {
+  background-color: #F1D1B5;
+  color: #fff
+}
+
+.banner {
+  background-color: #F1D1B5;
+}
+
+.boxy {
+  background-color: #462446;
+  color: #fff;
+}
+
+.header-tour {
+  background-color: #462446;
+}
+
+.a-tour {
+  color: #888;
+}
+
+.a-tour:hover {
+  color: #fff;
+}
+
+.brain {
+  background-color: #6FDAE8;
 }

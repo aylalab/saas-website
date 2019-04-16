@@ -12,58 +12,73 @@
 </head>
 <body>
 
-  <header>
-    <h1>Workflux</h1>
-    <nav role="navigation">
-        <ul id="menu">
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Products</li></a>
-          <a href="#"><li>Pricing</li></a>
-          <a href="#"><li>Reviews</li></a>
-          <a href="#"><li>Support</li></a>
-          <a href="#"><li>Log in</li></a>
-          <a class="btn-ghost" href="#"><li>Try for free</li></a>
+  <header class="header header-tour grid grid-middle" role="banner">
+    <h1 class="unit xs-1-5 logo push-0 gutter">
+      <i class=" icon i-128 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="workflux-logo"></i>
+      <span class="logo-text giga icon-label text-left"></span>
+    </h1>
+    <nav role="navigation" id="nav" tabindex="0" class="unit xs-4-5 nav text-right">
+      <div id="menuToggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul class="list-group-inline kilo push-0 gutter">
+          <li><a class="link-box a-tour ib gutter-1-4" href="#"><span>About</span></a></li>
+          <li><a class="link-box a-tour ib gutter-1-4" href="#"><span>Products</span></a></li>
+          <li><a class="link-box a-tour ib gutter-1-4" href="#"><span>Pricing</span></a></li>
+          <li><a class="link-box a-tour ib gutter-1-4" href="#"><span>Reviews</span></a></li>
+          <li><a class="link-box a-tour ib gutter-1-4" href="#"><span>Support</span></a></li>
+          <li><a class="btn ib gutter-1-4" href="#"><span>Try for Free</span></a></li>
         </ul>
       </div>
     </nav>
   </header>
 
   <main>
-    <div>
-      <h2>Tools you need to grow</h2>
-      <img class="img-flex" src="images/tools.png" alt="">
+    <div class="grid center-content">
+      <h2 class="center-text nina unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">Tools you need to grow</h2>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <img class="img-flex" src="images/tools.png" alt="">
+      </div>
     </div>
-    <div>
-    <div class="cloud">
-      <img class="img-flex" src="images/document-icon.svg" alt="">
-      <h3>Docs and Workflow Cloud</h3>
-      <p>Write, edit and share your documents with your team all through the Workflux cloud.</p>
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">
+        <i class="icon i-192"><img class="img-flex" src="images/document-icon.png" alt=""></i>
+        <h3>Docs and Workflow Cloud</h3>
+        <p class="max-length">Write, edit and share your documents with your team all through the Workflux cloud.</p>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">
+        <i class="icon i-192"><img class="img-flex" src="images/calendar-icon.svg" alt=""></i>
+        <h3>Smart Calendar</h3>
+        <p class="max-length">Create a streamlined and efficient schedule with the Workflux calendar, and the built-in reminder system will make sure you never miss a meeting.</p>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">
+        <i class="icon i-192"><img class="img-flex" src="images/money-icon.svg" alt=""></i>
+        <h3>Financial Manager</h3>
+        <p class="max-length">Drive revenue growth by streamlining your configure, price, and quote process. Easily manage subscriptions, invoices, and payments with our sales portal.</p>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">
+        <i class="icon i-192"><img class="img=flex" src="images/email-icon.svg" alt=""></i>
+        <h3>Email +</h3>
+        <p class="max-length">A smart email system that automatically adds events into your smart calendar and tracks conversation chains for easier access.</p>
+      </div>
     </div>
-    <div class="calendar">
-      <img class="img-flex" src="images/calendar-icon.svg" alt="">
-      <h3>Smart Calendar</h3>
-      <p>Create a streamlined and efficient schedule with the Workflux calendar, and the built-in reminder system will make sure you never miss a meeting.</p>
-    </div>
-    <div class="money">
-      <img class="img-flex" src="images/money-icon.svg" alt="">
-      <h3>Financial Manager</h3>
-      <p>Drive revenue growth by streamlining your configure, price, and quote process. Easily manage subscriptions, invoices, and payments with our sales portal.</p>
-    </div>
-    <div class="email">
-      <img class="img=flex" src="images/email-icon.svg" alt="">
-      <h3>Email +</h3>
-      <p>A smart email system that automatically adds events into your smart calendar and tracks conversation chains for easier access.</p>
-    </div>
-    <div class="brain">
-      <img class="img-flex" src="images/brain-icon.svg" alt="">
+    <div class="brain center-text push-2 pad-b-2 island">
+      <i class="icon i-256"><img class="img-flex" src="images/brain-icon.svg" alt=""></i>
       <h3>Flux Brain AI</h3>
-      <p>Now introducing Flux Brain, artificial intelligence that delivers predictions and recommendations based on your unique business processes and customer data.</p>
-      <a href="#">See how</a>
-      <img class="img-flex" src="images/point.png" alt="">
+      <p class="max-length">Now introducing Flux Brain, artificial intelligence that delivers predictions and recommendations based on your unique business processes and customer data.</p>
+      <a class="btn" href="#">See how</a>
     </div>
-    <img class="img-flex" src="images/sitting.png" alt="">
-    <h2>Sound good?</h2>
-    <a href="#">Try for free</a>
+    <div class="grid">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+        <img class="img-flex" src="images/sitting.png" alt="">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+        <h2>Sound good?</h2>
+        <a class="btn" href="#">Try for free</a>
+      </div>
+    </div>
   </main>
 
   <footer>
