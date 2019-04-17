@@ -24,30 +24,18 @@ footer {
   text-align: center;
 }
 
-.plans {
-  border-radius: 30px;
-  border: 0px solid #FAB568;
-  background-color: #FAB568;
-  box-shadow: 0px 1.5px 7px #999;
-}
-
 .btn:hover {
   background-color: #3A0B86;
   transition: color 0.5s ease;
 }
 
-.btn-plans:hover {
-  background-color: #3A0B86;
-  color: #fff;
-}
-
 .link-box {
-  color: #888888;
+  color: #3A0B86;
   transition: color 0.3s ease;
 }
 
 .link-box:hover {
-  color: #3A0B86;
+  color: #888;
 }
 
 .testimonials {
@@ -73,6 +61,11 @@ fieldset {
 
 .products {
   color: #4B44AA;
+}
+
+.foot {
+  color: #888;
+  transition: color 0.3s ease;
 }
 
 .foot:hover {
@@ -106,21 +99,10 @@ fieldset {
 }
 
 .brain {
-  background-color: #6FDAE8;
-}
-
-.bubble {
-  position: relative;
-}
-
-.bubble-text {
-  position: relative;
-  bottom: 9em;
-  right: -1em;
+  background-color: #E5E6E7;
 }
 
 td {
-  height: 10em;
   border: 1px solid #ccc;
 }
 
@@ -134,4 +116,67 @@ th {
 
 .header-price {
   background-color: #231246;
+}
+
+.btn-border {
+  border: 0;
+}
+
+.feat {
+  background-color: #ccc;
+}
+
+.bottom {
+  background-color: #3267FF;
+  color: #fff;
+}
+
+.btn-brain {
+  color: #fff;
+  background-color: #2717AF;
+  transition: color 0.5s ease;
+}
+
+.btn-brain:hover {
+  background-color: #130C4F;
+}
+
+.phone {
+  width: 50%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .container {
+    width: 50px;
+    height: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .container {
+    width: 200px;
+    height: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .container {
+    width: 300px;
+    height: 450px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .container {
+    width: 300px;
+    height: 400px;
+  }
+
 }
