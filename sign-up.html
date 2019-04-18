@@ -13,66 +13,75 @@
 <body>
 
   <header class="sign-up relative">
-    <h1 class="unit xs-1-5 logo push-0 pad-b-1-2 gutter">
-      <i class=" icon i-128 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="anchor"></i>
-      <span class="logo-text giga icon-label text-left"></span>
+    <h1 class="unit xs-1-5 logo push-0 gutter">
+      <a href="index.html">
+        <i class=" icon i-96 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="workflux-logo"></i>
+      </a>
     </h1>
   </header>
 
 <section>
-  <div class="grid">
-    <div class="xs-1 s-1 m-1 l-1-2 xl-1-2 push-2">
-      <img class="img-flex" src="images/welcome.png" alt="">
+  <div class="grid center-content">
+    <div class="xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+      <img class="img-flex gutter-1-2" src="images/welcome.png" alt="">
     </div>
-    <div class="xs-1 s-1 m-1 l-1-2 xl-1-2 push-2">
-      <h1 class="welcome center-text nina">Welcome to Workflux!</h1>
-    </div>
+    <h1 class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push welcome center-text nina">Welcome to Workflux!</h1>
   </div>
 
-    <form class="grid">
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+    <form class="grid" method="POST" action="thank-you.html">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
         <label class="push-1-4 micro" for="first-name">First name</label>
         <input id="first-name" required>
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
         <label class="push-1-4 micro" for="last-name">Last name</label>
         <input id="last-name" required>
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
         <label class="push-1-4 micro" for="phone">Phone</label>
         <input id="phone" type="tel">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
         <label class="push-1-4 micro" for="email">Email</label>
         <input id="email" type="email">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
         <label class="push-1-4 micro" for="password">Password</label>
         <input id="password" type="password">
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter push">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
         <label class="push-1-4 micro" for="conf-pass">Confirm password</label>
         <input id="conf-pass" type="password">
       </div>
       <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 center-text">
         <legend class="center-text push exa">Select a plan:</legend>
-        <input type="radio" id="free" name="plan">
-        <label for="free">Free trial</label>
-        <input type="radio" id="basic" name="plan">
-        <label for="basic">Workflux Basic</label>
-        <input type="radio" id="plus" name="plan">
-        <label for="plus">Workflux +</label>
+        <div class="grid center-content gutter-1-2">
+          <div class="radio unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 push">
+            <input type="radio" id="free" name="plan">
+            <label for="free">Free trial</label>
+          </div>
+          <div class="radio unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 push">
+            <input type="radio" id="basic" name="plan">
+            <label for="basic">Workflux Basic</label>
+          </div>
+          <div class="radio unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+            <input type="radio" id="plus" name="plan">
+            <label for="plus">Workflux +</label>
+          </div>
+        </div>
       </fieldset>
 
-      <div class="unit xs-1 s-1 m-1 l-1 xl-1 center-text push">
-        <input id="terms" name="terms" type="checkbox" required>
-        <label for="terms">I agree to Workflux Terms & Conditions</label>
-      </div>
-      <div class="unit xs-1 s-1 m-1 l-1 xl-1 center-text push">
-        <input id="promo" name="promo" type="checkbox" checked>
-        <label for="promo">I would like to recieve promotional emails from Workflux</label>
-      </div>
-      <div  class="unit xs-1 s-1 m-1 l-1 xl-1 center-text push-2 pad-t">
-        <button class="btn w-1-4 bold" type="submit">Sign up</button>
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-2 center-content text-center">
+        <div class="text-center push">
+          <input id="terms" name="terms" type="checkbox" required>
+          <label for="terms">I agree to Workflux Terms & Conditions</label>
+        </div>
+        <div class="center-content push">
+          <input id="promo" name="promo" type="checkbox" checked>
+          <label for="promo">I would like to recieve promotional emails from Workflux</label>
+        </div>
+        <div class="center-text push-2 pad-t">
+          <button class="btn w-1-4 bold" type="submit">Sign up</button>
+        </div>
       </div>
     </form>
