@@ -18,19 +18,19 @@ footer {
 .btn {
   border-radius: 30px;
   border: 0px solid #462446;
-  background-color: #F18c8e;
+  background-color: #f18c8e;
   box-shadow: 0px 1.5px 7px #999;
   width: 10rem;
   text-align: center;
 }
 
 .btn:hover {
-  background-color: #3A0B86;
+  background-color: #3a0b86;
   transition: color 0.5s ease;
 }
 
 .link-box {
-  color: #3A0B86;
+  color: #3a0b86;
   transition: color 0.3s ease;
 }
 
