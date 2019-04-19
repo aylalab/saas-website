@@ -2,9 +2,6 @@ html {
   font-family: Raleway, sans-serif;
 }
 
-.img-flex {
-  width: 100%;
-}
 
 .social > li {
   width: 3em;
@@ -18,15 +15,16 @@ footer {
 .btn {
   border-radius: 30px;
   border: 0px solid #462446;
-  background-color: #f18c8e;
+  background-color: #3a0b86;
+  color: #fff;
   box-shadow: 0px 1.5px 7px #999;
   width: 10rem;
   text-align: center;
 }
 
 .btn:hover {
-  background-color: #3a0b86;
-  transition: color 0.5s ease;
+  background-color: #2294E3;
+  color: #3a0b86;
 }
 
 .link-box {
