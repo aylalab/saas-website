@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <title>Pricing</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900" rel="stylesheet">
 </head>
 <body>
 
@@ -16,34 +17,32 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header role="banner" class="header-price grid grid-middle" role="banner">
+  <header role="banner" class="header-price grid grid-middle">
     <h1 class="unit xs-1-5 logo push-0 gutter">
       <a href="index.html">
         <i class=" icon i-96 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="workflux-logo"></i>
       </a>
     </h1>
     <nav role="navigation" id="nav" tabindex="0" class="unit xs-4-5 nav text-right">
-      <div id="menuToggle">
-        <input type="checkbox">
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul class="list-group-inline kilo push-0 gutter">
-          <li><a class="tour link-box ib gutter-1-4" href="index.html#about"><span>About</span></a></li>
-          <li><a class="tour link-box ib gutter-1-4" href="tour.html"><span>Products</span></a></li>
-          <li><a class="tour link-box ib gutter-1-4" href="pricing.html"><span>Pricing</span></a></li>
-          <li><a class="btn ib gutter-1-4" href="sign-up.html"><span>Try for Free</span></a></li>
-        </ul>
-      </div>
+      <ul class="list-group-inline kilo push-0 gutter">
+        <li><a class="tour link-box ib gutter-1-4" href="index.html#about"><span>About</span></a></li>
+        <li><a class="tour link-box ib gutter-1-4" href="tour.html"><span>Products</span></a></li>
+        <li><a class="tour link-box ib gutter-1-4" href="pricing.html"><span>Pricing</span></a></li>
+        <li><a class="btn ib gutter-1-4" href="sign-up.html"><span>Try for Free</span></a></li>
+      </ul>
     </nav>
   </header>
 
   <main role="main" id="main" tabindex="0">
-    <div class="grid banner-price center-content">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-        <img class="img-flex push-1-2 pad-t" src="images/plane-2.png" alt="">
+    <section class="grid banner-price center-content pad-b">
+      <h2 class="pad-t-2 unit xs-1 s-1 m-1 l-1-2 xl-1-2 center-text nina gutter push-0">Streamline your business</h2>
+      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <img class="container-plane img-flex push-1-2 pad-t" src="images/plane-2.png" alt="paper-plane">
       </div>
-      <h2 class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 center-text nina gutter">Streamline your business</h2>
+    </section>
+
+    <div class="hidden embed embed-1by1">
+      <img class="embed-item" src="images/globe.png" alt="decoration">
     </div>
 
     <div class="basic-mobile gutter push">
@@ -52,7 +51,8 @@
         <p class="push-0 kilo not-bold text-center">Complete business solutions for any sized team.</p>
       </div>
       <div class="gutter push-0">
-        <table border=0>
+        <table>
+          <caption class="visually-hidden">Workflux basic</caption>
           <thead>
             <tr>
               <th scope="col">Monthly fee</th>
@@ -63,13 +63,13 @@
             <tr>
               <th class="not-bold kilo" scope="row">Documents and Workflux Cloud</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
             <tr>
               <th class="not-bold kilo" scope="row">Smart Calendar</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
             <tr>
@@ -79,7 +79,7 @@
             <tr>
               <th class="not-bold kilo" scope="row">Email +</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
             <tr>
@@ -89,12 +89,13 @@
             <tr>
               <th class="not-bold kilo" scope="row">Financial Manager</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
           </tbody>
         </table>
       </div>
+    </div>
     <div class="center-content push-2">
       <a class="btn center-text island-1-2" href="sign-up.html">Purchase</a>
     </div>
@@ -105,7 +106,8 @@
         <p class="push-0 kilo not-bold text-center">Deeply customizable business solutions and 24/7 technical support.</p>
       </div>
       <div class="gutter push-0">
-        <table border=0>
+        <table>
+          <caption class="visually-hidden">Workflux +</caption>
           <thead>
             <tr>
               <th scope="col">Monthly fee</th>
@@ -116,42 +118,42 @@
             <tr>
               <th class="not-bold kilo" scope="row">Documents and Workflux Cloud</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
               </td>
             </tr>
             <tr>
               <th class="not-bold kilo" scope="row">Smart Calendar</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
             <tr>
               <th class="not-bold kilo" scope="row">24/7 Support</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
             <tr>
               <th class="not-bold kilo" scope="row">Email +</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
             <tr>
               <th class="not-bold kilo" scope="row">Flux Brain AI</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
             <tr>
               <th class="not-bold kilo" scope="row">Financial Manager</th>
               <td class="center-text">
-                <i class="icon i-32"><img src="images/checked.svg" alt=""></i>
+                <i class="icon i-32"><img src="images/checked.svg" alt="checkmark"></i>
               </td>
             </tr>
           </tbody>
         </table>
       </div>
+    </div>
     <div class="center-content">
       <a class="btn center-text island-1-2" href="sign-up.html">Purchase</a>
     </div>
@@ -160,9 +162,7 @@
     </div>
   </main>
 
-
-
-  <footer class="content-info">
+  <footer role="contentinfo">
     <div class="grid">
       <nav class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 center-text list-group">
         <h3 class="pad-t push-0">Company</h3>

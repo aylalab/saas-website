@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>Sign up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900" rel="stylesheet">
 </head>
@@ -14,24 +14,33 @@
 
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
+  <header class="header header-tour grid grid-middle" role="banner">
+    <h1 class="unit xs-1-5 logo push-0 gutter">
+      <a href="index.html">
+        <i class=" icon i-96 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="workflux-logo"></i>
+      </a>
+    </h1>
+    <nav role="navigation" id="nav" tabindex="0" class="unit xs-4-5 nav text-right">
+      <ul class="list-group-inline kilo push-0 gutter">
+        <li><a class="link-box a-tour ib gutter-1-4" href="index.html#about"><span>About</span></a></li>
+        <li><a class="link-box a-tour ib gutter-1-4" href="tour.html"><span>Products</span></a></li>
+        <li><a class="link-box a-tour ib gutter-1-4" href="pricing.html"><span>Pricing</span></a></li>
+        <li><a class="btn ib gutter-2" href="#"><span>Try for Free</span></a></li>
+      </ul>
+    </nav>
+  </header>
   <main role="main" id="main" tabindex="0">
-    <header role="banner" class="sign-up relative">
-      <h1 class="unit xs-1-5 logo push-0 gutter">
-        <a href="index.html">
-          <i class=" icon i-96 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="workflux-logo"></i>
-        </a>
-      </h1>
-    </header>
-
+    <a class="btn hidden" href="#">Try</a>
     <section class="grid center-content">
-      <div class="xs-1 s-1 m-1 l-1-2 xl-1-2 push">
-        <img class="img-flex gutter-1-2" src="images/welcome.png" alt="">
+      <div class="embed embed-24by10 unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+        <img class="embed-item img-flex gutter-1-2" src="images/welcome.png" alt="welcome" aria-details="people-waving">
       </div>
-      <h1 class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push welcome center-text nina">Welcome to Workflux!</h1>
+      <h2 class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push welcome center-text nina">Welcome to Workflux!</h2>
     </section>
-    <form class="grid" method="POST" action="thank-you.html">
+    <form class="grid" method="POST" action="https://formspree.io">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
         <label class="push-1-4 micro" for="first-name">First name</label>
         <input id="first-name" required>
@@ -88,4 +97,12 @@
       </div>
     </form>
   </main>
+
+  <footer role="contentinfo">
+    <div class="center-text">
+      <small class="text-center">© Workflux</small>
+    </div>
+  </footer>
+
 </body>
+</html>
