@@ -18,11 +18,11 @@
   </ul>
 
   <header class="header header-tour grid grid-middle" role="banner">
-    <h1 class="unit xs-1-5 logo push-0 gutter">
+    <div class="unit xs-1-5 logo push-0 gutter">
       <a href="index.html">
-        <i class=" icon i-96 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="" aria-details="workflux-logo"></i>
+        <i class=" icon i-96 push-r-1-4"><img class="img-flex" src="images/workflux-logo.svg" alt="workflux" aria-details="workflux-logo"></i>
       </a>
-    </h1>
+    </div>
     <nav role="navigation" id="nav" tabindex="0" class="unit xs-4-5 nav text-right">
       <ul class="list-group-inline kilo push-0 gutter">
         <li><a class="link-box a-tour ib gutter-1-4" href="index.html#about"><span>About</span></a></li>
@@ -32,12 +32,15 @@
     </nav>
   </header>
   <main role="main" id="main" tabindex="0">
-    <a class="btn hidden" href="#">Try</a>
+    <h1 class="hidden">stuff</h1>
     <section class="grid center-content">
       <div class="embed embed-24by10 unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
         <img class="embed-item img-flex gutter-1-2" src="images/welcome.png" alt="welcome" aria-details="people-waving">
       </div>
       <h2 class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push welcome center-text nina">Welcome to Workflux!</h2>
+      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <a class="link-box log-in text-center gutter-2 pad-b-2" href="#">Log in here</a>
+      </div>
     </section>
     <form class="grid" method="POST" action="https://formspree.io">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
@@ -91,7 +94,7 @@
           <label for="promo">I would like to recieve promotional emails from Workflux</label>
         </div>
         <div class="center-text push-2 pad-t">
-          <button class="btn w-1-4 bold" type="submit">Sign up</button>
+          <button class="btn" type="submit">Sign up</button>
         </div>
       </div>
     </form>

@@ -16,14 +16,15 @@ footer {
   background-color: #3a0b86;
   color: #fff;
   box-shadow: 1px 1.5px 7px #999;
-  width: 10em;
-  border: 0;
+  width: 200px;
+  border: 1px solid #3a0b86;
   text-align: center;
 }
 
 .btn:hover {
   background-color: #2294e3;
   color: #3a0b86;
+  width: 200px;
 }
 
 .link-box {
@@ -151,9 +152,17 @@ th {
   width: 50%;
 }
 
-a:focus {
+nav:hover {
+  color: #fff;
+}
+
+nav:focus {
+  color: #fff;
+}
+
+.sign-up-btn:focus {
+  background-color: #3a0b86;
   outline: 3px solid #000;
-  background-color: #3267ff;
 }
 
 @media only screen and (min-width: 25em) {
